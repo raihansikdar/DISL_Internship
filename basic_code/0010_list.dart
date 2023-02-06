@@ -7,10 +7,10 @@ void main() {
   mylist[1] = 300;
 
   print(mylist);
-  print("The list values in reverse order: ${mylist.reversed}");
+  print("The list values in reverse order: ${mylist.reversed}");  // list reverse
 
   List<int> mylist2 = [];
-  mylist2 = List.of(mylist);
+  mylist2 = List.of(mylist);   // list copy
   print("List Copy from mylist to mylist2 ${mylist2}");
 
   print("First element of the list: ${mylist.first}");
