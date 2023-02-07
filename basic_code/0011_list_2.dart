@@ -15,8 +15,8 @@ void main() {
   List<int> mylist = [22, 36, 25, 96];
   print("Print the first element ${mylist.first}");
   print("Print the last element ${mylist.last}");
-  print("Print the list is empty or not ${mylist.isEmpty}");
-  print("Print the list is not empty or not ${mylist.isNotEmpty}");
+  print("Print the list is empty or not: ${mylist.isEmpty}");
+  print("Print the list is not empty or not: ${mylist.isNotEmpty}");
   print("Print the list is length ${mylist.length}");
   // print("Print the list is single or not ${mylist.single}"); // If the list has more than one element, then the same code will throw the following exception 
   print("Print the list is reverse ${mylist.reversed}");
