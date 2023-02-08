@@ -30,6 +30,6 @@ void main() {
   // }
 
   studentMap.forEach((key, value) {
-    print(' This is ${key}, ${value}');
+    print(' This is ${key}, ${value} ');
   });
 }
