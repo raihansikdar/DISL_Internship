@@ -1,7 +1,7 @@
 import 'dart:collection';
 
 void main() {
-  var student_details_hashmap = new HashMap();
+  Map<String, String> student_details_hashmap = new HashMap();
   student_details_hashmap["name"] = "Raihan";
   student_details_hashmap["dept"] = "CSE";
   student_details_hashmap["city"] = "Dhaka";
@@ -11,4 +11,11 @@ void main() {
 
   print(student_details_hashmap);
   print(student_details_hashmap.keys);
+
+  student_details_hashmap.addAll({"P_address": "faridpur", "C_address": "Mirpur,Dhaka"});
+  print(student_details_hashmap);
+
+  
+
+  
 }
