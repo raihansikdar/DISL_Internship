@@ -1,6 +1,6 @@
 int oddNumbers(List<int> numberList) {
   int max = numberList[0];
-  for (int i = 1; i < numberList.length; i++) {
+  for (int i = 1; i <= numberList.length; i++) {
     if (numberList[i] > max) {
       max = numberList[i];
     }
