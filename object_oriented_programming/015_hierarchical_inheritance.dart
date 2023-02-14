@@ -1,14 +1,12 @@
  class Person {  
   void name(String name) {  
     print(name);  
-  }  
+  }
   
   void id(int id) {  
     print(id);  
   }  
 }  
-  
-
 
 class Raihan extends Person {  
    
@@ -17,14 +15,10 @@ class Raihan extends Person {
   }  
 }   
 
-
-
-
 class Mamun extends Person {  
     void result(String result){  
       print(result);  
 } 
-
 
 } 
 

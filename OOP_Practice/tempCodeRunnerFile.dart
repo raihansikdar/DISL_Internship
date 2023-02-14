@@ -1,0 +1,4 @@
+
+    print(id);
+    print(name);
+  }
