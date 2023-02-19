@@ -11,6 +11,7 @@ void Sub(int number1, int number2) {
 void main() {
   MultiOperation multiOperation = Sum;
   multiOperation(20, 10);
+  
   multiOperation = Sub;
   multiOperation(30,20);
 }

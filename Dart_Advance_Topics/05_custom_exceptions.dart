@@ -2,6 +2,12 @@ class MyCustomException implements Exception {
   String message() => "Entered Amount should be greater than zero";
 }
 
+void checkNumber(int number) {
+  if (number <= 0) {
+    throw new MyCustomException();
+  }
+}
+
 void main() {
   try {
     checkNumber(-10);
@@ -17,8 +23,3 @@ void main() {
   }
 }
 
-void checkNumber(int number) {
-  if (number <= 0) {
-    throw new MyCustomException();
-  }
-}
