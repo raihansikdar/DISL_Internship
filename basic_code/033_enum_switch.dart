@@ -1,6 +1,6 @@
 import 'dart:developer';
 
-enum Day { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday }
+enum Day { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, }
 
 // String type = "fdfd3";
 

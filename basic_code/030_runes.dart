@@ -7,5 +7,6 @@ void main() {
   String str = "Dart";
   print(str);
   print(str.codeUnitAt(0));
+  print(str.codeUnitAt(1)); // a == 97
   
 }

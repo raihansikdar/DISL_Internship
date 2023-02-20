@@ -13,5 +13,6 @@ void main() {
   print(student_details_hashmap.keys);
 
   student_details_hashmap.addAll({"P_address": "faridpur", "C_address": "Mirpur,Dhaka"});
-  print(student_details_hashmap);  
+  print(student_details_hashmap);
+    
 }
