@@ -27,7 +27,10 @@ void main() {
   int number = int.parse(stdin.readLineSync() ?? "0");
 
   List<int> results = primeNumberFinder(number);
-  results.forEach((result) {
-    print(result);
-  });
+  
+  // results.forEach((result) {
+  //   print(result);
+  // });
+
+  results.forEach((v) => {print(v)});
 }

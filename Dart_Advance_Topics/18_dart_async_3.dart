@@ -1,11 +1,16 @@
 import 'dart:async';
+import 'dart:developer';
 import 'dart:io';
 
 void main() {
-  File file = File("Desktop\pera.txt");
-  Future<String> fs = file.readAsString();
+  try {
+    File file = File("C:/Users/User/Desktop/name.txt");
+    Future<String> readFile = file.readAsString();
 
-  fs.then((value) => print(value));
+    readFile.then((names) => print(names));
+  } catch (e) {
+    log("EXCEPTION: $e");
+  }
 
   print("End of main");
 }
