@@ -6,5 +6,4 @@ void main() {
 
   String? name = stdin.readLineSync();
   print("user name is ${name}");
-
 }

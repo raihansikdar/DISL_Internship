@@ -20,8 +20,4 @@ void main() {
   print("Print the list is length ${mylist.length}");
   // print("Print the list is single or not ${mylist.single}"); // If the list has more than one element, then the same code will throw the following exception 
   print("Print the list is reverse ${mylist.reversed}");
-
-
-
- 
 }
