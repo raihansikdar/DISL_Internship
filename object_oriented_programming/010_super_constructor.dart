@@ -17,7 +17,7 @@ class Child extends Father {
   void display() {
     print(super.name);
     print("Parent id :${super.id}");
-    print("Parent id :${id}");
+    print("Child id :${id}");
   }
 }
 
