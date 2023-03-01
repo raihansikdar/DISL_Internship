@@ -39,7 +39,7 @@ class Student implements Comparable<Student> {
 }
 
 class Priorities {
-  List<Student> getStudents(List<String> events) {
+    List<Student> getStudents(List<String> events) {
     Queue<Student> queue = Queue<Student>();
 
     for (String str in events) {

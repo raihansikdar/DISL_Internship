@@ -1,8 +1,10 @@
- class Employee {
+abstract class Employee {
   void display() {
     print("I am working as an Engineer");
   }
 }
+
+// abstract class hobe implement er time
 
 class Engineer implements Employee {
   void display() {
