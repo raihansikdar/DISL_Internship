@@ -21,6 +21,7 @@ String Function(int) isPrime = (int number) {
 String Function(int) isPalindrome = (int number) {
   String makeString = number.toString();
   String reversed = makeString.split('').reversed.join('');
+
   if (makeString == reversed)
     return "PALINDROME";
   else
